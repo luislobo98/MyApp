@@ -10,17 +10,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cadAeromodelos"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:layout_marginRight="15dp"
             android:checkable="true"
             android:clickable="true"
-            android:focusable="true"
-            android:layout_marginRight="15dp">
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,10 +48,10 @@
             android:id="@+id/cadGaleria"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
             android:checkable="true"
             android:clickable="true"
-            android:focusable="true"
-            android:layout_marginLeft="15dp" >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -80,17 +80,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cadCuriosidades"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:layout_marginRight="15dp"
             android:checkable="true"
             android:clickable="true"
-            android:focusable="true"
-            android:layout_marginRight="15dp">
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -118,10 +118,10 @@
             android:id="@+id/cadAerodromo"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
             android:checkable="true"
             android:clickable="true"
-            android:focusable="true"
-            android:layout_marginLeft="15dp" >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -150,17 +150,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cadEventos"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:layout_marginRight="15dp"
             android:checkable="true"
             android:clickable="true"
-            android:focusable="true"
-            android:layout_marginRight="15dp">
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -188,10 +188,10 @@
             android:id="@+id/cadPilotos"
             android:layout_width="180dp"
             android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
             android:checkable="true"
             android:clickable="true"
-            android:focusable="true"
-            android:layout_marginLeft="15dp" >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
