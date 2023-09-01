@@ -84,7 +84,7 @@
         android:layout_margin="10dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cadAeromodelos"
+            android:id="@+id/cadCuriosidades"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:checkable="true"
@@ -101,21 +101,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/logo" />
+                    android:src="@drawable/curiosidades" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
-                    android:text="Aeromodelos"
+                    android:text="Curiosidades"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cadGaleria"
+            android:id="@+id/cadAerodromo"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:checkable="true"
@@ -132,14 +132,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/galeria" />
+                    android:src="@drawable/aerodromo" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
-                    android:text="Galeria"
+                    android:text="Aerodromo"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -154,7 +154,7 @@
         android:layout_margin="10dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cadAeromodelos"
+            android:id="@+id/cadEventos"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:checkable="true"
@@ -171,21 +171,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/logo" />
+                    android:src="@drawable/eventos" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
-                    android:text="Aeromodelos"
+                    android:text="Eventos"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cadGaleria"
+            android:id="@+id/cadPilotos"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:checkable="true"
@@ -202,18 +202,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/galeria" />
+                    android:src="@drawable/pilotos" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
-                    android:text="Galeria"
+                    android:text="Pilotos"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
+
 </LinearLayout>
